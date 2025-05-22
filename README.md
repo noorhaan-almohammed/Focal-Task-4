@@ -43,3 +43,7 @@ git clone https://github.com/noorhaan-almohammed/Focal-Task-4.git
 cd Focal-Task-4
 npm install
 npm run dev
+```
+
+## Or visit site:
+https://focal-task-4.vercel.app/
