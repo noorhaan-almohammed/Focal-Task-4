@@ -1,0 +1,44 @@
+.section {
+  background-image: url(/images/dream_house.png);
+  height: 380px;
+  width: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 58px;
+}
+.overlay h2{
+font-weight: 700;
+font-size: 70px;
+line-height: 56px;
+color: #fff;
+}
+.overlay p{
+font-size: 30px;
+line-height: 26px;
+text-align: center;
+color: #fff;
+}
+@media (max-width:992px) {
+    .overlay{
+        gap:15px;
+    }
+    .overlay h2{
+        font-size: 30px;
+    }
+    .overlay p{
+        font-size: 15px;
+    }
+}
